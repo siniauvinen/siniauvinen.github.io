@@ -77,12 +77,6 @@ i {
     color: rgb(150, 122, 47);
     font-style: italic;
 }
-/* .actualquote {
-    position: fixed;
-    bottom: 14%; 
-    width: 100%; 
-    text-align: center;
-} */
 @media only screen and (max-width: 700px) {
     .actualquote {
       font-size: 70%;
@@ -95,6 +89,16 @@ i {
     background-size: cover;
     height: 100%;
 }
+@media only screen and (max-width: 800px) {
+    #bg-img {
+        background-position: 68% 0%;
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    .quote {
+        padding-top: 40%;
+    }
+  } 
 
 /* ABOUT ME */
 
