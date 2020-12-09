@@ -34,13 +34,13 @@ span {
 .nav-link.active{
     border-bottom: 2px solid;
 }
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 800px) {
     .nav-link.active {
       border-bottom: 2px solid;
       width: 30%;
     }
   }
-  @media only screen and (max-width: 992px) {
+  @media only screen and (max-width: 800px) {
     .navbarindex {
         font-weight: bold;
         background-color: rgb(255, 255, 255, 0.4)
@@ -94,7 +94,7 @@ i {
         background-position: 68% 0%;
     }
   }
-  @media only screen and (max-width: 1080px) {
+  @media only screen and (max-width: 800px) {
     .quote {
         padding-top: 40%;
     }
@@ -229,12 +229,3 @@ input[type=submit]:hover {
 .btn-custom:hover {
     background-color:rgb(69, 75, 133);
 }
-
-
-
-
-
-
-
-   
-
