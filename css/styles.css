@@ -91,7 +91,7 @@ i {
 }
 @media only screen and (max-width: 1080px) {
     #bg-img {
-        background-position: 68% 0%;
+        background-position: 68% 90%;
     }
   }
   @media only screen and (max-width: 800px) {
@@ -229,3 +229,4 @@ input[type=submit]:hover {
 .btn-custom:hover {
     background-color:rgb(69, 75, 133);
 }
+
