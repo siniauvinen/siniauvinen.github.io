@@ -34,13 +34,13 @@ span {
 .nav-link.active{
     border-bottom: 2px solid;
 }
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 992px) {
     .nav-link.active {
       border-bottom: 2px solid;
       width: 30%;
     }
   }
-  @media only screen and (max-width: 991px) {
+  @media only screen and (max-width: 992px) {
     .navbarindex {
         font-weight: bold;
         background-color: rgb(255, 255, 255, 0.4)
