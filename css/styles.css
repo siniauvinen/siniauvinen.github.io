@@ -34,13 +34,13 @@ span {
 .nav-link.active{
     border-bottom: 2px solid;
 }
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 991px) {
     .nav-link.active {
       border-bottom: 2px solid;
       width: 30%;
     }
   }
-  @media only screen and (max-width: 1080px) {
+  @media only screen and (max-width: 991px) {
     .navbarindex {
         font-weight: bold;
         background-color: rgb(255, 255, 255, 0.4)
@@ -229,3 +229,12 @@ input[type=submit]:hover {
 .btn-custom:hover {
     background-color:rgb(69, 75, 133);
 }
+
+
+
+
+
+
+
+   
+
