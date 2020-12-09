@@ -89,12 +89,12 @@ i {
     background-size: cover;
     height: 100%;
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1080px) {
     #bg-img {
         background-position: 68% 0%;
     }
   }
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 600px) {
     .quote {
         padding-top: 40%;
     }
@@ -229,4 +229,3 @@ input[type=submit]:hover {
 .btn-custom:hover {
     background-color:rgb(69, 75, 133);
 }
-
