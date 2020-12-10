@@ -1,6 +1,7 @@
 html, body {
     height: 100%;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 .card {
     border-radius: 0px;
@@ -94,6 +95,12 @@ i {
         background-position: 68% 90%;
     }
   }
+  @media only screen and (max-width: 800px) {
+    .quote {
+        padding-top: 20%;
+        
+    }
+  } 
 
 /* ABOUT ME */
 
@@ -113,7 +120,7 @@ i {
     margin-left: 30px;
 }
 .myworktext {
-    border-left: 5px solid  rgb(243, 208, 112);;
+    border-left: 5px solid  rgb(243, 208, 112);
     margin-left: 20px;
     text-align: start;
 }
@@ -224,4 +231,14 @@ input[type=submit]:hover {
 .btn-custom:hover {
     background-color:rgb(69, 75, 133);
 }
-
+.learnmore {
+    background-color: transparent;
+    border: solid 1px rgb(150, 122, 47);
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.learnmore:hover {
+    background-color:  rgb(187, 157, 76);
+    color: white;
+}
